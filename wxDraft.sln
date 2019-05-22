@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wxDraft", "wxDraft\wxDraft.vcxproj", "{75087F6F-B839-43DD-BC63-E57564BE9217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Debug|Win32.Build.0 = Debug|Win32
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Debug|x64.ActiveCfg = Debug|x64
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Debug|x64.Build.0 = Debug|x64
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Release|Win32.ActiveCfg = Release|Win32
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Release|Win32.Build.0 = Release|Win32
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Release|x64.ActiveCfg = Release|x64
+		{75087F6F-B839-43DD-BC63-E57564BE9217}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
