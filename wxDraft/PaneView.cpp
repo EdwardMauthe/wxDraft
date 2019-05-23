@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.hpp"
 #include "PaneView.hpp"
 BEGIN_EVENT_TABLE(PaneView,wxPanel)
 	EVT_LEFT_DOWN(PaneView::WhenMouseLeftDown)

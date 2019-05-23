@@ -96,6 +96,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\wxWidgets-3.0.4\include;C:\wxWidgets-3.0.4\include\msvc</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>StdAfx.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -146,7 +147,7 @@
   <ItemGroup>
     <ClInclude Include="MainFrame.hpp" />
     <ClInclude Include="PaneView.hpp" />
-    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stdafx.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

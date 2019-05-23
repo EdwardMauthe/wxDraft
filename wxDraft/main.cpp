@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "stdafx.hpp"
 #include "PaneView.hpp"
 
 class CoreApp:public wxApp

@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.hpp"
 #include "MainFrame.hpp"
 
 
