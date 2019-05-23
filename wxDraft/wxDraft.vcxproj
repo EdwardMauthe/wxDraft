@@ -143,11 +143,13 @@
     <ClCompile Include="MainFrame.cpp" />
     <ClCompile Include="PaneView.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ToolList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainFrame.hpp" />
     <ClInclude Include="PaneView.hpp" />
     <ClInclude Include="stdafx.hpp" />
+    <ClInclude Include="ToolList.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

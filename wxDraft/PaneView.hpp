@@ -1,4 +1,7 @@
 #pragma once
+
+WX_DECLARE_OBJARRAY(wxPoint,wxPointsArray);
+
 class PaneView:public wxPanel
 {
 public:
@@ -6,8 +9,12 @@ public:
 	~PaneView(void);
 	DECLARE_EVENT_TABLE()
 protected:
+	void WhenCreate(wxWindowCreateEvent& wce);
+	void WhenDestroy(wxWindowDestroyEvent& wde);
 	void WhenPaint(wxPaintEvent& pe);
 	void WhenMouseLeftDown(wxMouseEvent& me);
 private:
-	wxPoint point;
+	wxPointsArray pa;
+public:
+	void MyTool(wxCommandEvent& ce);
 };

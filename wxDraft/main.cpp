@@ -1,21 +1,15 @@
 #include "stdafx.hpp"
-#include "PaneView.hpp"
+#include "MainFrame.hpp"
 
 class CoreApp:public wxApp
 {
 	wxFrame* frame;
-	wxPanel* pane;
 	bool OnInit()
 	{
-		wxBoxSizer* bs=new wxBoxSizer(wxHORIZONTAL);
-		frame=new wxFrame(NULL,-1,wxT("wxDraft Test"),wxPoint(50,50),wxSize(400,300));
-		pane=new PaneView(frame);
-		bs->Add(pane,1,wxEXPAND);
-		//
-		frame->SetSizer(bs);
-		frame->SetAutoLayout(true);
+		frame=new MainFrame(wxT("wxDraft"),wxPoint(50,50),wxSize(400,300));
 		frame->Show();
 		return true;
 	}
 };
+
 IMPLEMENT_APP(CoreApp)
